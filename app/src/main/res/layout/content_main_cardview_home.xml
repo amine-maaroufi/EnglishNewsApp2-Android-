@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/viewBg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.medamine.englishnewsapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <!-- Recycler politic-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latest Politic"
+                android:textStyle="bold"
+                android:textColor="#4d4b4b"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_politic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="horizontal" />
+
+        <!-- recycle economic-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Economic"
+            android:textStyle="bold"
+            android:textColor="#4d4b4b"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textSize="30dp"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_economic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="horizontal" />
+
+
+        <!-- recycle sport-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Sport"
+            android:textStyle="bold"
+            android:textColor="#4d4b4b"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textSize="30dp"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_sport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="horizontal" />
+
+        <!-- recycle Technology-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Technology"
+            android:textStyle="bold"
+            android:textColor="#4d4b4b"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textSize="30dp"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_technology"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="horizontal" />
+
+
+        <!-- recycle Science-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Science"
+            android:textStyle="bold"
+            android:textColor="#4d4b4b"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textSize="30dp"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_science"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="horizontal" />
+
+
+        <!-- recycle Music-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Music"
+            android:textStyle="bold"
+            android:textColor="#4d4b4b"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textSize="30dp"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_Music"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="horizontal" />
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

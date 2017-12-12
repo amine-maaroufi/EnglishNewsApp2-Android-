@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#023467</color>
+    <color name="colorPrimaryDark">#0757a9</color>
+    <color name="colorAccent">#023467</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <!--greentheme-->
+    <color name="primary_green">#00b685</color>
+    <color name="colorPrimaryDarkGreen">#07ceb0</color>
+    <color name="colorAccentGreen">#00b685</color>
+    <color name="viewBgGreen">#f1f5f8</color>
+
+    <!--greenred-->
+    <color name="primary_red">#bc011d</color>
+    <color name="colorPrimaryDarkred">#ed1826</color>
+    <color name="colorAccentred">#bc011d</color>
+    <color name="viewBgred">#f1f5f8</color>
+
+
+
+
+</resources>
+
+
